@@ -12,6 +12,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface AppDelegate (category)
 
+
+- (void)initWindow;
+
+- (void)initService;
+
+- (void)networkStatusObserverFunc;
 @end
 
 NS_ASSUME_NONNULL_END

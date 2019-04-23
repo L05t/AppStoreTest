@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		133C71D12269808400AB17C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 133C71D02269808400AB17C0 /* AppDelegate.m */; };
-		133C71D42269808400AB17C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 133C71D32269808400AB17C0 /* ViewController.m */; };
+		132AFDB4226EA80A006D802F /* HUDUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 132AFDB3226EA80A006D802F /* HUDUtil.m */; };
 		133C71D72269808400AB17C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 133C71D52269808400AB17C0 /* Main.storyboard */; };
 		133C71D92269808400AB17C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 133C71D82269808400AB17C0 /* Assets.xcassets */; };
 		133C71DC2269808400AB17C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 133C71DA2269808400AB17C0 /* LaunchScreen.storyboard */; };
 		133C71DF2269808400AB17C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 133C71DE2269808400AB17C0 /* main.m */; };
 		133C71E92269808500AB17C0 /* AppStoreTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 133C71E82269808500AB17C0 /* AppStoreTestTests.m */; };
 		133C71F42269808500AB17C0 /* AppStoreTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 133C71F32269808500AB17C0 /* AppStoreTestUITests.m */; };
+		133C7213226980D000AB17C0 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 133C7205226980D000AB17C0 /* BaseViewController.m */; };
+		133C7214226980D000AB17C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 133C7212226980D000AB17C0 /* AppDelegate.m */; };
+		133C72172269819100AB17C0 /* AppDelegate+category.m in Sources */ = {isa = PBXBuildFile; fileRef = 133C72162269819100AB17C0 /* AppDelegate+category.m */; };
+		133C721B2269B46300AB17C0 /* BaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 133C721A2269B46300AB17C0 /* BaseNavigationViewController.m */; };
+		133C7227226DB2A700AB17C0 /* NetworkAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 133C7226226DB2A700AB17C0 /* NetworkAPIClient.m */; };
+		E43E9EB136A357FA7F0E5C03 /* libPods-AppStoreTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1938421B74F0BDE6D1EDEA /* libPods-AppStoreTest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		132AFDB2226EA80A006D802F /* HUDUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HUDUtil.h; sourceTree = "<group>"; };
+		132AFDB3226EA80A006D802F /* HUDUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HUDUtil.m; sourceTree = "<group>"; };
 		133C71CC2269808400AB17C0 /* AppStoreTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppStoreTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		133C71CF2269808400AB17C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		133C71D02269808400AB17C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		133C71D22269808400AB17C0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		133C71D32269808400AB17C0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		133C71D62269808400AB17C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		133C71D82269808400AB17C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		133C71DB2269808400AB17C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +54,24 @@
 		133C71EF2269808500AB17C0 /* AppStoreTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppStoreTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		133C71F32269808500AB17C0 /* AppStoreTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppStoreTestUITests.m; sourceTree = "<group>"; };
 		133C71F52269808500AB17C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		133C7205226980D000AB17C0 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		133C7206226980D000AB17C0 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		133C7209226980D000AB17C0 /* UtilsMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilsMacros.h; sourceTree = "<group>"; };
+		133C720A226980D000AB17C0 /* CommonMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMacros.h; sourceTree = "<group>"; };
+		133C720B226980D000AB17C0 /* LibMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibMacros.h; sourceTree = "<group>"; };
+		133C720C226980D000AB17C0 /* APIMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIMacros.h; sourceTree = "<group>"; };
+		133C7211226980D000AB17C0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		133C7212226980D000AB17C0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		133C72152269819100AB17C0 /* AppDelegate+category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+category.h"; sourceTree = "<group>"; };
+		133C72162269819100AB17C0 /* AppDelegate+category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+category.m"; sourceTree = "<group>"; };
+		133C72192269B46300AB17C0 /* BaseNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationViewController.h; sourceTree = "<group>"; };
+		133C721A2269B46300AB17C0 /* BaseNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationViewController.m; sourceTree = "<group>"; };
+		133C721C2269B73000AB17C0 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		133C7225226DB2A700AB17C0 /* NetworkAPIClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkAPIClient.h; sourceTree = "<group>"; };
+		133C7226226DB2A700AB17C0 /* NetworkAPIClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkAPIClient.m; sourceTree = "<group>"; };
+		1FAF34DA92B4D815BB49BCFC /* Pods-AppStoreTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppStoreTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppStoreTest/Pods-AppStoreTest.debug.xcconfig"; sourceTree = "<group>"; };
+		DB1938421B74F0BDE6D1EDEA /* libPods-AppStoreTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppStoreTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF06078D72F6889F2B5FDBA3 /* Pods-AppStoreTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppStoreTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppStoreTest/Pods-AppStoreTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E43E9EB136A357FA7F0E5C03 /* libPods-AppStoreTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +107,8 @@
 				133C71E72269808500AB17C0 /* AppStoreTestTests */,
 				133C71F22269808500AB17C0 /* AppStoreTestUITests */,
 				133C71CD2269808400AB17C0 /* Products */,
+				1D679AB5F2DB68AE9DC127DB /* Pods */,
+				8460D707B38F0394526092A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +125,13 @@
 		133C71CE2269808400AB17C0 /* AppStoreTest */ = {
 			isa = PBXGroup;
 			children = (
-				133C71CF2269808400AB17C0 /* AppDelegate.h */,
-				133C71D02269808400AB17C0 /* AppDelegate.m */,
-				133C71D22269808400AB17C0 /* ViewController.h */,
-				133C71D32269808400AB17C0 /* ViewController.m */,
+				133C7210226980D000AB17C0 /* Appdelegate */,
+				133C7202226980D000AB17C0 /* Base */,
+				133C720F226980D000AB17C0 /* Libs */,
+				133C7208226980D000AB17C0 /* Macros */,
+				133C7201226980D000AB17C0 /* Manager */,
+				133C720D226980D000AB17C0 /* Modules */,
+				133C720E226980D000AB17C0 /* Utils */,
 				133C71D52269808400AB17C0 /* Main.storyboard */,
 				133C71D82269808400AB17C0 /* Assets.xcassets */,
 				133C71DA2269808400AB17C0 /* LaunchScreen.storyboard */,
@@ -132,6 +159,129 @@
 			path = AppStoreTestUITests;
 			sourceTree = "<group>";
 		};
+		133C7201226980D000AB17C0 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				133C7224226DB29500AB17C0 /* NetworkClient */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		133C7202226980D000AB17C0 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				133C72182269B44800AB17C0 /* BaseNavigationController */,
+				133C7203226980D000AB17C0 /* BaseView */,
+				133C7204226980D000AB17C0 /* BaseViewController */,
+				133C7207226980D000AB17C0 /* BaseModel */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		133C7203226980D000AB17C0 /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+		133C7204226980D000AB17C0 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				133C7206226980D000AB17C0 /* BaseViewController.h */,
+				133C7205226980D000AB17C0 /* BaseViewController.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		133C7207226980D000AB17C0 /* BaseModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseModel;
+			sourceTree = "<group>";
+		};
+		133C7208226980D000AB17C0 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				133C7209226980D000AB17C0 /* UtilsMacros.h */,
+				133C720A226980D000AB17C0 /* CommonMacros.h */,
+				133C720B226980D000AB17C0 /* LibMacros.h */,
+				133C720C226980D000AB17C0 /* APIMacros.h */,
+				133C721C2269B73000AB17C0 /* PrefixHeader.pch */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		133C720D226980D000AB17C0 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		133C720E226980D000AB17C0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				132AFDB2226EA80A006D802F /* HUDUtil.h */,
+				132AFDB3226EA80A006D802F /* HUDUtil.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		133C720F226980D000AB17C0 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		133C7210226980D000AB17C0 /* Appdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				133C7211226980D000AB17C0 /* AppDelegate.h */,
+				133C7212226980D000AB17C0 /* AppDelegate.m */,
+				133C72152269819100AB17C0 /* AppDelegate+category.h */,
+				133C72162269819100AB17C0 /* AppDelegate+category.m */,
+			);
+			path = Appdelegate;
+			sourceTree = "<group>";
+		};
+		133C72182269B44800AB17C0 /* BaseNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				133C72192269B46300AB17C0 /* BaseNavigationViewController.h */,
+				133C721A2269B46300AB17C0 /* BaseNavigationViewController.m */,
+			);
+			path = BaseNavigationController;
+			sourceTree = "<group>";
+		};
+		133C7224226DB29500AB17C0 /* NetworkClient */ = {
+			isa = PBXGroup;
+			children = (
+				133C7225226DB2A700AB17C0 /* NetworkAPIClient.h */,
+				133C7226226DB2A700AB17C0 /* NetworkAPIClient.m */,
+			);
+			path = NetworkClient;
+			sourceTree = "<group>";
+		};
+		1D679AB5F2DB68AE9DC127DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FAF34DA92B4D815BB49BCFC /* Pods-AppStoreTest.debug.xcconfig */,
+				FF06078D72F6889F2B5FDBA3 /* Pods-AppStoreTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8460D707B38F0394526092A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB1938421B74F0BDE6D1EDEA /* libPods-AppStoreTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +289,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 133C71F82269808500AB17C0 /* Build configuration list for PBXNativeTarget "AppStoreTest" */;
 			buildPhases = (
+				F10E5EEAF527086E9A4B6F25 /* [CP] Check Pods Manifest.lock */,
 				133C71C82269808400AB17C0 /* Sources */,
 				133C71C92269808400AB17C0 /* Frameworks */,
 				133C71CA2269808400AB17C0 /* Resources */,
+				9A8182663736079E1A139B98 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,14 +409,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9A8182663736079E1A139B98 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AppStoreTest/Pods-AppStoreTest-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppStoreTest/Pods-AppStoreTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F10E5EEAF527086E9A4B6F25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppStoreTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		133C71C82269808400AB17C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				133C71D42269808400AB17C0 /* ViewController.m in Sources */,
+				133C7227226DB2A700AB17C0 /* NetworkAPIClient.m in Sources */,
+				132AFDB4226EA80A006D802F /* HUDUtil.m in Sources */,
 				133C71DF2269808400AB17C0 /* main.m in Sources */,
-				133C71D12269808400AB17C0 /* AppDelegate.m in Sources */,
+				133C721B2269B46300AB17C0 /* BaseNavigationViewController.m in Sources */,
+				133C7213226980D000AB17C0 /* BaseViewController.m in Sources */,
+				133C72172269819100AB17C0 /* AppDelegate+category.m in Sources */,
+				133C7214226980D000AB17C0 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,14 +636,19 @@
 		};
 		133C71F92269808500AB17C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FAF34DA92B4D815BB49BCFC /* Pods-AppStoreTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WPMZQ395HE;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Conner/Desktop/学习/AppStoreTest/AppStoreTest/Macros/PrefixHeader.pch";
 				INFOPLIST_FILE = AppStoreTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = wjc.AppStoreTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -449,14 +657,19 @@
 		};
 		133C71FA2269808500AB17C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF06078D72F6889F2B5FDBA3 /* Pods-AppStoreTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WPMZQ395HE;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Conner/Desktop/学习/AppStoreTest/AppStoreTest/Macros/PrefixHeader.pch";
 				INFOPLIST_FILE = AppStoreTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = wjc.AppStoreTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
